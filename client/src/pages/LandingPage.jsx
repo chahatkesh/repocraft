@@ -8,7 +8,7 @@ import Footer from "../components/common/Footer";
 import Hero from "../components/landingpage/Hero";
 import FeatureSection from "../components/landingpage/FeatureSection";
 import HowItWorks from "../components/landingpage/HowItWorks";
-
+import Examples from "../components/landingpage/Examples";
 
 const LandingPage = () => {
   return (
@@ -17,6 +17,7 @@ const LandingPage = () => {
       <Hero />
       <FeatureSection />
       <HowItWorks />
+      <Examples />
       <Footer />
     </div>
   );

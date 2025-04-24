@@ -35,7 +35,7 @@ const Navbar = () => {
 
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-8">
-            {["Features", "How it works", "Examples", "Docs"].map((item) => (
+            {["Features", "How it works", "Examples"].map((item) => (
               <motion.a
                 key={item}
                 href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
@@ -83,7 +83,7 @@ const Navbar = () => {
               </a>
             ))}
             <a
-              href="https://github.com"
+              href="https://github.com/chahatkesh/repocraft"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 hover:text-white">
